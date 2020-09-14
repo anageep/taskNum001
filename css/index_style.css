@@ -49,6 +49,7 @@
     padding: 10px 25px;
 }
 
+<<<<<<< HEAD
 
 /* <!------------------------------------ Team ---------------------------------------------> */
 
@@ -129,3 +130,23 @@
     line-height: 1.5;
   }
   
+=======
+.color{
+    background-color: #f3ae54;
+    width:100%;
+    height: 50vh;
+}
+
+.color p{
+    display:none;
+}
+
+.color:hover {
+    background-color: #ff8f00;
+
+}
+
+.color:hover p{
+    display:block;
+}
+>>>>>>> 6834f42e14ae24aea690cc2692dab5fc3024914d
