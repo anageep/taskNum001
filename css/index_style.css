@@ -1,0 +1,50 @@
+/*---- nageep section style------------*/
+.price {
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+.price .plan {
+    margin-top: 40px;
+    line-height: 2;
+    box-shadow:0px 7px 11px 4px rgba(0, 0, 0, .14),
+    inset 1px -1px 6px 0px rgba(0, 0, 0, .2),
+    0 1px 5px 0 rgba(0, 0, 0, .12);
+    transition: all .3s linear;
+}
+.price .plan:hover{
+    transform: scale(1.03);
+}
+.price .plan h3 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-weight: bolder;
+}
+.price .plan .amount {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    line-height: 1;
+    background-color: #ff8f00;
+}
+.price .plan .amount span {
+    font-size: 45px;
+    font-weight: bolder;
+    color: #fff;
+}
+.price .plan .amount span:first-child {
+    font-weight: lighter;
+}
+.price .plan ul {
+    font-size: 16px;
+    color: rgb(170, 170, 170);
+    font-weight: lighter;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+}
+.price .plan button {
+    margin: 20px 0 30px;
+    border-radius: 0;
+    background-color: #ff8f00;
+    font-weight: bolder;
+    padding: 10px 25px;
+}
